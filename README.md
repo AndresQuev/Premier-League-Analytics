@@ -1,64 +1,57 @@
 ⚽ Premier League: Financial Efficiency & Performance Analytics (2012–2025)
-An interactive, bilingual (English / Spanish) sports analytics dashboard exploring the relationship between transfer market expenditure and league points return across Premier League clubs.
+An interactive, bilingual (English/Spanish) sports analytics dashboard exploring the relationship between transfer market spending and league points return across Premier League clubs.
 
-🔗 Live Interactive Demo: https://premier-league-analytics-xdbfznpahjw2vahhagvavp.streamlit.app/
+🔗 Live Interactive Demo: Launch Dashboard
 
-PROJECT OVERVIEW
-
+📌 Project Overview
 Analytical Question: Does spending more money on player transfers guarantee sporting success in the Premier League?
 
-Methodological Approach: Regression-based benchmarking to estimate expected league points given transfer investments, isolating club efficiency residuals.
+Methodology: Regression-based benchmarking to estimate expected league points given transfer investments, isolating club efficiency residuals.
 
-Key Visualizations:
+Key Features:
 
-Dynamic KPI cards: Cumulative transfer investment, league points average, and financial cost per point.
+Dynamic KPI Cards: Cumulative spend, points average, and financial cost per point.
 
-Analytical Scatter Quadrant plotting transfer expenditure vs. league points alongside historical league averages.
+Interactive Quadrants: Transfer spending vs. league points alongside historical benchmarks.
 
-Net sporting efficiency ranking by club (points above or below market baseline).
+Efficiency Ranking: Club ranking by net points above or below market expectations.
 
-Interactive language toggle (English 🇬🇧 / Español 🇪🇸).
+Bilingual Toggle: Seamless real-time switch between English 🇬🇧 and Spanish 🇪🇸.
 
-TECH STACK
+🛠️ Tech Stack
+Language: Python
 
-Core Language: Python
+Data Processing: Pandas
 
-Data Processing & Transformation: Pandas
+Interactive Visualizations: Plotly (Express & Graph Objects)
 
-Interactive Data Visualization: Plotly (Express & Graph Objects)
+Web Framework: Streamlit
 
-Web Application & Dashboarding: Streamlit
+Styling & UI: Custom CSS (Premier League Dark Broadcast Theme)
 
-UI / Styling: Custom CSS (Premier League Dark Broadcast Theme)
+Deployment: GitHub & Streamlit Community Cloud
 
-Version Control & Deployment: Git, GitHub, Streamlit Community Cloud
+💻 Local Setup & Installation
+1. Clone the repository:
 
-LOCAL SETUP & INSTALLATION
-
-Step 1: Clone the repository
+Bash
 git clone https://github.com/AndresQuev/Premier-League-Analytics.git
 cd Premier-League-Analytics
+2. Install dependencies:
 
-Step 2: Install required dependencies
+Bash
 pip install -r requirements.txt
+3. Run the application:
 
-Step 3: Run the application
+Bash
 python -m streamlit run app.py
-
-REPOSITORY STRUCTURE
-
-app.py                      -> Main Streamlit interactive application code
-
-powerbi_tabla_principal.csv -> Processed historical transfer & performance dataset
-
-requirements.txt            -> Environment dependencies for execution
-
-README.md                   -> Project documentation and overview
-
-AUTHOR & CONTACT
-
+📁 Repository Structure
+Plaintext
+├── app.py                         # Main Streamlit application
+├── powerbi_tabla_principal.csv    # Processed historical dataset
+├── requirements.txt               # Python package dependencies
+└── README.md                      # Project documentation
+👤 Author & Contact
 Author: Andrés Quevedo
 
-GitHub: https://github.com/AndresQuev
-
-Project: Premier League Transfer Efficiency Analytics Hub
+GitHub: @AndresQuev
